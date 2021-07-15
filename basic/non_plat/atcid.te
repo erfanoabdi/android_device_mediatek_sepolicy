@@ -59,5 +59,3 @@ unix_socket_connect(atcid, atci_service, atci_service);
 unix_socket_connect(atcid, atci-audio, audiocmdservice_atci);
 unix_socket_connect(atcid, meta_atci, meta_tst);
 allow atcid adb_atci_socket:sock_file write;
-
-get_prop(atcid, persist_atm_prop)
